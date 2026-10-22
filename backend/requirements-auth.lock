@@ -1,0 +1,18 @@
+# requirements-auth.lock
+# Login-1B-OFFLINE 可选依赖完整解析（2026-08-31，Python 3.10.11 / Windows）
+# 哈希与 .runtime/wheelhouse 内实际安装的 wheel 逐一核对（SHA-256）。
+# 备注：install-playwright 1.0.2 在 Windows 上存在 `from os import EX_OK` 兼容缺陷，
+# 由 worker 子进程内隔离兼容层处理（见 docs/DEVELOPMENT.md）。
+
+gppt==5.1.0 --hash=sha256:6eefee83ada3423ef7e53c5ae54501c0eb26a4d1f65b26f6dfff76f250d43194
+install-playwright==1.0.2 --hash=sha256:151de353be64cf49f29589df22c3073a6a313060f4f751deabf2eee20b4e9b59
+playwright==1.62.0 --hash=sha256:92c0d98ed04eb35af557b709875edba415b1f548bdb22ddb5bb3e1e6c835c2f1
+pyotp==2.10.0 --hash=sha256:1df2f6a1bcc3bb0716172a5215ddc2f8c7c7fd26a13df9927d52e1746934836c
+requests==2.34.2 --hash=sha256:2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0
+charset-normalizer==3.5.1 --hash=sha256:be47f99644b208bff7766314013f9acf57b056b04191d570d68ad14022cf5b1d
+idna==3.19 --hash=sha256:815e7be7a7806d54abb586dc943addc79e8b2ee16915059658cbeff4b1b43bf4
+urllib3==2.7.0 --hash=sha256:9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897
+certifi==2026.7.22 --hash=sha256:62f22742b58a1a33014a2b6b706588a8d7e2a88ae7bd1a6ebe8c992928483775
+greenlet==3.5.5 --hash=sha256:740e544169527b82695ce76af2f7ad6f030904658f2f3921a1d245771fb88cfc
+pyee==13.0.1 --hash=sha256:af2f8fede4171ef667dfded53f96e2ed0d6e6bd7ee3bb46437f77e3b57689228
+typing-extensions==4.16.0 --hash=sha256:481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8

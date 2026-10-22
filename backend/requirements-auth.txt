@@ -1,0 +1,4 @@
+# 可选依赖：可见受监督浏览器登录（Login-1B-OFFLINE，已批准）
+# 安装：pip install -r requirements-auth.txt
+# 完整解析与哈希证据见 requirements-auth.lock；基础离线开发不依赖本文件。
+gppt==5.1.0

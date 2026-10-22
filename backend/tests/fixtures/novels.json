@@ -1,0 +1,18 @@
+[
+  {
+    "novel_id": 2001,
+    "title": "メジロアルダンの決意",
+    "tags": [
+      {"name": "ウマ娘", "translated_name": "赛马娘"},
+      {"name": "メジロアルダン"}
+    ],
+    "text_length": 15000,
+    "total_bookmarks": 400,
+    "total_view": 9000,
+    "total_comments": 20,
+    "is_original": true,
+    "create_date": "2026-08-03T00:00:00+00:00",
+    "likes": null,
+    "updated_at": null
+  }
+]

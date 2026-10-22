@@ -1,0 +1,5 @@
+fastapi==0.141.1
+uvicorn==0.52.4
+pydantic-settings==2.15.0
+keyring==25.7.0
+pixivpy3==3.7.5

@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+coverage/
+
+# 运行数据与凭据（不进入版本控制）
+data/
+.env
+.env.*
+!.env.example
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# 本机运行时、发布产物与临时验收附件
+.runtime/
+release/
+build/
+docs/reviews/
+docs/visual/
+docs/history/
+*.log
+*.tmp
+
+# 本机代理配置
+.kilo/
+kilo.jsonc
+.codex/
+.agents/
+
+# 编辑器
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
